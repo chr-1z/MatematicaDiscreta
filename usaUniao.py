@@ -1,4 +1,4 @@
-from final import *
+from uniao import *
 
 A = Conjunto()
 B = Conjunto()
@@ -20,5 +20,12 @@ print(A.uniao(B))
 
 A = { 'a', 'b' }
 
+
 B = { 'a', 'cb' }
+
+
+A.subconjunto(B)
+
+
+
 
